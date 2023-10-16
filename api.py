@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 import pickle
-from collections import Counter
 import pandas as pd
+import statistics
+
 app = Flask(__name__)
 import statistics
 with open('gbc_model.pkl', 'rb') as gbc_model_file:
