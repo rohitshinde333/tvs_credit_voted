@@ -11,7 +11,7 @@
 
 ### Step 4
 - `localhost:5000/predict` with json 
-{
+- {
     "RevolvingUtilizationOfUnsecuredLines": 0.964673,
     "age": 40,
     "NumberOfTime30-59DaysPastDueNotWorse": 3,
@@ -22,4 +22,4 @@
     "NumberRealEstateLoansOrLines": 1,
     "NumberOfTime60-89DaysPastDueNotWorse": 1,
     "NumberOfDependents": 2
-}
+ }
